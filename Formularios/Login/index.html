@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <header> 
+    
+            <div class="caja1">20% de descuento en todos los productos!</div>
+            <div class="caja2"> <img ID = IMG  src="./IMG/OBJECTS.png"> Nombre Tienda </div> <br><br>
+            <span class="titulo">Login</span>
+    
+        </header>
+<br> <br>
+<div class="login"> 
+<form action="formulario.html" method="POST">
+
+    <label for="Usuario"></label>
+    <input type="text" id="Usuario" name="Usuario" placeholder="Usuario" 
+    minlength="8" maxlength="16" oninvalid="SetCustomValidity('Completar este campo correctamente')">
+     <br> <br>
+    <label for="Contraseña"></label>
+    <input type="password" id="Contraseña" name="Contraseña" placeholder="Contraseña"
+    minlength="8" maxlength="16" oninvalid="SetCustomValidity('La contraseña debe contener entre 8 y 16 caracteres')">
+
+    </div>
+
+</form>
+<br> <br> <br>
+<div> 
+    <input class="Boton" type="submit" value="Entrar"> 
+    
+</div>
+<br>
+
+<span> <a href="#"> ¿No tenés una cuenta?</a>  Registrarme</span> 
+
+
+ <footer>
+        <div class="caja-footer">
+            <p class="derechos">Todos los derechos reservados a FRONT END 1</p>
+            </div>
+    </footer>
+
+</main>
+</body>
+</html>

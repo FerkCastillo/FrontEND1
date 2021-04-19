@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Karla:wght@300&family=Roboto:ital@1&display=swap');
+
+*{box-sizing: border-box;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.fondo {  position: relative;
+    background-image: url(./IMG/bg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 790px;
+    width: 2000x;
+}
+
+
+
+.caja1{ height: 25px;
+    width: auto;
+    background-color:#1CD1B0;
+    color: black;
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    font-style: normal;
+ }
+ 
+ .caja2{height: 55px;
+    background-color: #00669F;
+    color: white;
+    font-size: 40px;
+    text-align: start;
+    padding-top: 5px;
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    box-shadow: 0px 10px 7px rgba(0,0,0, 0.20);
+ }
+
+.card{ position: absolute;
+    background-color: white;
+    width: 546px;
+    height: 400px;
+    left: 700px;
+    top: 275px;
+    border-radius: 30px;
+}
+
+.heart{ background-image: url(./IMG/XMLID\ 1045.png);
+    position: absolute;
+    font-size: 50px;
+    left: 38%;
+    right: 0%;
+    top: 33%;
+    bottom: 5%;
+    background-repeat: no-repeat;
+}
+
+.foto{background-image: url(./IMG/perfil\ 1.png);
+position: absolute;
+width: 159px;
+height: 159px;
+left: 894px;
+top: 203px;
+border-radius: 100px;
+}
+
+.footer-card{ position: relative;
+    background-color: #2C0187;
+    height: 100px;
+    width: 546px;
+    left: 692px;
+    top: -450px;
+    border-radius: 0px 0px 50px 50px;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+.titulo {  position: relative;
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    
+    }
+
+
+
+.descripcion { text-align: justify;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 17px;
+    font-weight: 400px;
+    position: relative;
+    width: 480px;
+    top: -530px;
+    left: 720px;
+
+}
+
+.bate{ position: absolute;
+background-image: url(./IMG/bate\ 1.png);
+font-size: 50px;
+left: 44%;
+right: 0%;
+top: 58%;
+bottom: 0%;
+background-repeat: no-repeat;
+}
+
+.gun { position: absolute; 
+    background-image: url(./IMG/gun\ 1.png);
+    font-size: 50px;
+    left: 49%;
+    right: 0%;
+    top: 58%;
+    bottom: 0%;
+    background-repeat: no-repeat;
+}
+
+.bazooka { position: absolute;
+    background-image: url(./IMG/bazooka\ 1.png);
+    font-size: 50px;
+     left: 54%;
+    right: 0%;
+    top: 58%; 
+    bottom: 0%;
+    background-repeat: no-repeat;
+}
+
+
+ .caja-footer { position: relative;
+    width: auto;
+    height: 50px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: -300px;
+ }
+ 
+ 
+  .derechos {color: #FFF9F9;
+     text-align: center;
+     position: relative;
+     top: 17px;
+     }
+ 
+
