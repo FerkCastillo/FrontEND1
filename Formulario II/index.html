@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario II</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9c0a83a34b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="caja1">20% de descuento en todos los productos!</div>
+        <div class="caja2"> <img ID=IMG src="./IMG/OBJECTS.png"> Nombre Tienda </div>
+        <div class="caja3"> Contacto Registrame Ingresar</div>
+
+    </header>
+
+    <form action="">
+        <div class="cajon">
+
+            <h1> Añadí tu Super! </h1>
+
+            <h4> Agregá tu personaje favorito completando las opciones </h4>
+
+            <div class="CajaNombre">
+                <label for="nombre"> Nombre </label> <br> <br>
+                <input class="nombre" type="text" id="nombre" name="nombre">
+            </div>
+            <div class="CajaEspecie">
+                <label for="especie"> Especie </label> <br> <br>
+                <select class="nombre" id="especie" name="especie">
+
+                    <option value="0"> Especie </option>
+                    <option value="1"> Cyborg </option>
+                    <option value="2"> Alien </option>
+                    <option value="3"> Mutante </option>
+                    <option value="4"> Personalizado </option>
+
+                </select>
+            </div>
+            <div class="CajaArchivo">
+                <label> Agregar foto </label>
+                <input class="archivo" type="file" name="foto" accept=".jpg" multiple>
+            </div>
+
+            <div class="CajaFecha">
+                <label for="fecha"> Fecha </label> <br><br>
+                <input class="nombre" type="date" id="fecha" name="fecha">
+            </div>
+
+            <textarea> Descripción </textarea>
+
+            <div class="check-poderes">
+                <label>Poderes</label> <br> <br>
+
+                <input class="check" type="checkbox" name="Poderes" value="Volar">
+                <label for="Poderes"> Volar</label> <br>
+                <input class="check" type="checkbox" name="Poderes" value="Superinteligencia">
+                <label for="Poderes"> Superinteligencia</label> <br>
+                <input class="check" type="checkbox" name="Poderes" value="Vista de rayo láser">
+                <label for="Poderes"> Vista de rayo láser </label> <br>
+                <input class="check" type="checkbox" name="Poderes" value="Billetera Gorda">
+                <label for="Poderes">Billetera gorda</label>
+
+            </div>
+
+            <div class="radio-personaje">
+                <label>Tipo de Personaje</label> <br> <br>
+                <input class="check" type="radio" name="personaje" value="Heroes">
+                <label for="personaje"> Héroe / Heroina </label> <br>
+                <input class="check" type="radio" name="personaje" value="Villanos">
+                <label for="personaje"> Villano / Villana </label>
+            </div>
+        </div>
+
+        </div>
+    </form>
+
+    <div class="boton"> Añadir </div>
+
+    <footer>
+        <div class="caja-footer">
+            <p class="derechos">Todos los derechos reservados a FRONT END 1</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
